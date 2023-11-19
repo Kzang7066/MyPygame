@@ -21,11 +21,3 @@ G. There is a on-screen clickable buttons to reset, get new puzzle or solve auto
 
 #All in all, the key functionality cover game generation, sliding logic, solving animations and interactivity which are basically the core of the playable puzzle game.
 
-2.WRITING TEST CASES
-
-A. Game Board Generation.
-    - Its normal successful operation is generating a standard 4*4 game board and verifying that it contains a value of 1-15 in a correct order with one blank space.
-		
-  Edge Cases: Generating a board with 0 row or columns, verify it raises an error or returns a default 1x1 board.
-	
-  Data Validation: Pass rows but not columns or vice versa, verify fails or uses defaults.
